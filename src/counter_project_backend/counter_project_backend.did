@@ -1,3 +1,6 @@
 service : {
-    "greet": (text) -> (text) query;
+  get_counter: () -> (nat64) query;
+  increment_counter: () -> ();
+  decrement_counter: () -> ();
+  reset_counter: () -> ();
 }
